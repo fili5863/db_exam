@@ -39,6 +39,9 @@ INSERT INTO addresses(address_pk,address_user_fk,address_line_1,address_line_2,a
 
 SELECT * from addresses;
 
+
+
+
 DROP TABLE IF EXISTS orders;
 
 CREATE TABLE orders (
